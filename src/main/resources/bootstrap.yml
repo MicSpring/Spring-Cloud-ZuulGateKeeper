@@ -1,0 +1,12 @@
+spring: 
+  application: 
+    name: GATE-KEEPER 
+
+
+# HTTP Server
+server:
+  port: 8765   # HTTP (Tomcat) port
+  contextPath: /gatekeeper
+  
+ribbon:
+  ReadTimeout: 60000
